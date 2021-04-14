@@ -1,5 +1,5 @@
 import { add } from './util/add.js';
-import { multiply } from './util/multiply.js';
+import multiply  from './util/multiply.js';
 
 const a = add(1, 4);
 const b = multiply(2, 4);
