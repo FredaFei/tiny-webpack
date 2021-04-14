@@ -1,4 +1,7 @@
 const Compiler = require('./lib/compiler');
 const webpackConfig = require('./webpack.config');
 
-new Compiler(webpackConfig).run();
+const compiler = new Compiler(webpackConfig);
+
+compiler.hooks.entryOption.call();
+compiler.run();

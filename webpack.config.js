@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyHtml = require('./lib/plugin/copy-html');
 
 module.exports = {
     entry: path.join(__dirname, './src/index.js'),
@@ -23,4 +24,10 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        new CopyHtml({
+            filename: 'index.html',
+            template: path.resolve(__dirname, './src/index.html')
+        })
+    ]
 };
