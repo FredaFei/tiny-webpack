@@ -10,8 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.13.15",
+    "@babel/generator": "^7.13.9",
     "@babel/parser": "^7.13.15",
     "@babel/preset-env": "^7.13.15",
-    "@babel/traverse": "^7.13.15"
+    "@babel/traverse": "^7.13.15",
+    "@babel/types": "^7.13.14",
+    "less": "^4.1.1"
   }
 }
