@@ -1,4 +1,4 @@
-接着上次的[手写webpack](https://github.com/FredaFei/tiny-webpack/blob/webpack/doc.md)
+接着上次的[手写 Webpack打包实现](https://github.com/FredaFei/tiny-webpack/blob/webpack/doc.md)
 篇，实现一个简易的 Loader
 
 #### 准备工作
