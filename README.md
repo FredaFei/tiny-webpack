@@ -1,4 +1,4 @@
-### 手写 Webpack Plugin
+### 手写 Webpack 系列
 
 ----
 
@@ -16,4 +16,6 @@
 
 文档
 
-[手写 Webpack Plugin](./doc.md)
++ [手写 Webpack打包实现](https://github.com/FredaFei/tiny-webpack/blob/webpack/doc.md)
++ [手写 Loader](https://github.com/FredaFei/tiny-webpack/blob/loader/doc.md)
++ [手写 Webpack Plugin](https://github.com/FredaFei/tiny-webpack/blob/plugin/doc.md)
