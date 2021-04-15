@@ -3,5 +3,6 @@ const webpackConfig = require('./webpack.config');
 
 const compiler = new Compiler(webpackConfig);
 
-compiler.hooks.entryOption.call();
+// 在外部触发entryOption钩子
+// compiler.hooks.entryOption.call();
 compiler.run();

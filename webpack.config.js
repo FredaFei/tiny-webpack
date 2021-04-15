@@ -26,6 +26,7 @@ module.exports = {
     },
     plugins: [
         new CopyHtml({
+            title: 'copy-plugin',
             filename: 'index.html',
             template: path.resolve(__dirname, './src/index.html')
         })
