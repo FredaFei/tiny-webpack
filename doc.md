@@ -1,4 +1,5 @@
-接着上次的[手写webpack](./手写webpack.md)篇，实现一个简易的 Plugin
+接着上次的[手写webpack](https://github.com/FredaFei/tiny-webpack/blob/webpack/doc.md)
+篇，实现一个简易的 Plugin
 
 #### 准备工作
 
