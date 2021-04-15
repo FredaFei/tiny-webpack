@@ -16,4 +16,4 @@
 
 文档
 
-[手写 Webpack](https://github.com/FredaFei/blogs/blob/master/articles/webpack/%E6%89%8B%E5%86%99webpack.md)
+[手写 Webpack](./doc.md)
